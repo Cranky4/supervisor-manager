@@ -13,6 +13,7 @@
         {
             "name": "Cranky4",
             "email": "cranky4.89@gmail.com"
+        }
     ],
     "require": {
         "yiisoft/yii2": "*",
