@@ -1,5 +1,5 @@
 {
-    "name": "hexa/supervisor-manager",
+    "name": "Cranky/supervisor-manager",
     "description": "Supervisor manager module for Yii2",
     "type": "yii2-extension",
     "keywords": ["yii2","supervisor","supervisor-manager"],
@@ -9,7 +9,10 @@
         {
             "name": "AlexyAV",
             "email": "avpretty@gmail.com"
-        }
+        },
+        {
+            "name": "Cranky4",
+            "email": "cranky4.89@gmail.com"
     ],
     "require": {
         "yiisoft/yii2": "*",
@@ -23,11 +26,6 @@
     "autoload": {
         "psr-4": {
             "supervisormanager\\": ""
-        }
-    },
-    "config": {
-        "github-oauth": {
-            "github.com": "6caa717c5282eaa67e98a70add5dd0d1e10525bb"
         }
     }
 }
