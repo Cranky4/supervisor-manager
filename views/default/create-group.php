@@ -23,7 +23,7 @@ use yii\widgets\ActiveForm;
                 <?php
                 $form = ActiveForm::begin([
                     'id' => 'createGroupForm',
-                    'action' => Url::to('/supervisor/default/create-group')
+                    'action' => Url::to(['/supervisor/default/create-group'])
                 ]); ?>
 
                 <?= $form->field($supervisorGroupForm, 'groupName') ?>

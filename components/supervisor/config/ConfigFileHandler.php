@@ -64,6 +64,7 @@ class ConfigFileHandler extends Component
     private function _checkConfigDir()
     {
         if (!is_dir($this->_configDir)) {
+            echo $this->_configDir;exit;
             return mkdir($this->_configDir, 777);
         }
 

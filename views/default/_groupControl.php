@@ -1,7 +1,7 @@
 <!--<div class="margin">-->
-<div class="btn-group groupControl" data-group-name="<?php echo $groupName ?>">
+<div class="btn-group groupControl" data-group-name="<?php echo $groupName ?>" style="display: flex">
     <button type="button" class="btn btn-default">
-        Group Options
+        Options
     </button>
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
         <span class="caret"></span>
